@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ToggleButton
+                    android:id="@+id/toggleButton"
+                    android:layout_width="190dp"
+                    android:layout_height="75dp"
+                    android:text="ToggleButton"
+                    android:textOff="Meja 1"
+                    android:textOn="Meja 1" />
+
+                <ToggleButton
+                    android:id="@+id/toggleButton2"
+                    android:layout_width="190dp"
+                    android:layout_height="75dp"
+                    android:text="ToggleButton"
+                    android:textOff="Meja 2"
+                    android:textOn="Meja 2" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ToggleButton
+                    android:id="@+id/toggleButton3"
+                    android:layout_width="190dp"
+                    android:layout_height="75dp"
+                    android:text="ToggleButton"
+                    android:textOff="Meja 3"
+                    android:textOn="Meja 3" />
+
+                <ToggleButton
+                    android:id="@+id/toggleButton4"
+                    android:layout_width="190dp"
+                    android:layout_height="75dp"
+                    android:text="ToggleButton"
+                    android:textOff="Meja 4"
+                    android:textOn="Meja 4" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ToggleButton
+                    android:id="@+id/toggleButton5"
+                    android:layout_width="190dp"
+                    android:layout_height="75dp"
+                    android:text="ToggleButton"
+                    android:textOff="Meja 5"
+                    android:textOn="Meja 5" />
+
+                <ToggleButton
+                    android:id="@+id/toggleButton6"
+                    android:layout_width="190dp"
+                    android:layout_height="75dp"
+                    android:text="ToggleButton"
+                    android:textOff="Meja 6"
+                    android:textOn="Meja 6" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ToggleButton
+                    android:id="@+id/toggleButton7"
+                    android:layout_width="190dp"
+                    android:layout_height="75dp"
+                    android:text="ToggleButton"
+                    android:textOff="Meja 7"
+                    android:textOn="Meja 7" />
+
+                <ToggleButton
+                    android:id="@+id/toggleButton8"
+                    android:layout_width="190dp"
+                    android:layout_height="75dp"
+                    android:text="ToggleButton"
+                    android:textOff="Meja 8"
+                    android:textOn="Meja 8" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ToggleButton
+                    android:id="@+id/toggleButton9"
+                    android:layout_width="190dp"
+                    android:layout_height="75dp"
+                    android:text="ToggleButton"
+                    android:textOff="Meja 9"
+                    android:textOn="Meja 9" />
+
+                <ToggleButton
+                    android:id="@+id/toggleButton10"
+                    android:layout_width="190dp"
+                    android:layout_height="75dp"
+                    android:text="ToggleButton"
+                    android:textOff="Meja 10"
+                    android:textOn="Meja 10" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ToggleButton
+                    android:id="@+id/toggleButton11"
+                    android:layout_width="190dp"
+                    android:layout_height="75dp"
+                    android:text="ToggleButton"
+                    android:textOff="Meja 11"
+                    android:textOn="Meja 11" />
+
+                <ToggleButton
+                    android:id="@+id/toggleButton12"
+                    android:layout_width="190dp"
+                    android:layout_height="75dp"
+                    android:text="ToggleButton"
+                    android:textOff="Meja 12"
+                    android:textOn="Meja 12" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ToggleButton
+                    android:id="@+id/toggleButton13"
+                    android:layout_width="190dp"
+                    android:layout_height="75dp"
+                    android:text="ToggleButton"
+                    android:textOff="Meja 13"
+                    android:textOn="Meja 13" />
+
+                <ToggleButton
+                    android:id="@+id/toggleButton14"
+                    android:layout_width="190dp"
+                    android:layout_height="75dp"
+                    android:text="ToggleButton"
+                    android:textOff="Meja 14"
+                    android:textOn="Meja 14" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ToggleButton
+                    android:id="@+id/toggleButton15"
+                    android:layout_width="190dp"
+                    android:layout_height="75dp"
+                    android:text="ToggleButton"
+                    android:textOff="Meja 15"
+                    android:textOn="Meja 15" />
+
+                <ToggleButton
+                    android:id="@+id/toggleButton16"
+                    android:layout_width="190dp"
+                    android:layout_height="75dp"
+                    android:text="ToggleButton"
+                    android:textOff="Meja 16"
+                    android:textOn="Meja 16" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ToggleButton
+                    android:id="@+id/toggleButton17"
+                    android:layout_width="190dp"
+                    android:layout_height="75dp"
+                    android:text="ToggleButton"
+                    android:textOff="Meja 17"
+                    android:textOn="Meja 17" />
+
+                <ToggleButton
+                    android:id="@+id/toggleButton18"
+                    android:layout_width="190dp"
+                    android:layout_height="75dp"
+                    android:text="ToggleButton"
+                    android:textOff="Meja 18"
+                    android:textOn="Meja 18" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ToggleButton
+                    android:id="@+id/toggleButton19"
+                    android:layout_width="190dp"
+                    android:layout_height="75dp"
+                    android:text="ToggleButton"
+                    android:textOff="Meja 19"
+                    android:textOn="Meja 19" />
+
+                <ToggleButton
+                    android:id="@+id/toggleButton20"
+                    android:layout_width="190dp"
+                    android:layout_height="75dp"
+                    android:text="ToggleButton"
+                    android:textOff="Meja 20"
+                    android:textOn="Meja 20" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
